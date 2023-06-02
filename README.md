@@ -1,6 +1,8 @@
-# RecycleViewStickyHeader
+## RecycleViewStickyHeader
 StickyHeaderLayout demo 
 
+CustomStickyHeaderLayout
+```
 package com.ezaio.recycleviewstickheader
 
 import android.annotation.SuppressLint
@@ -171,8 +173,10 @@ class CustomStickyHeaderLayout : FrameLayout {
         this.showStickItemPosition = showStickItemPosition
     }
 }
-
+```
 ---------------------------------------------------------------------------------------------
+## MainActivity
+```
 package com.ezaio.recycleviewstickheader
 
 import android.os.Bundle
@@ -195,3 +199,4 @@ class MainActivity : AppCompatActivity() {
         r_recycler!!.adapter = adapter
     }
 }
+```
