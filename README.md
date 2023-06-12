@@ -2,7 +2,8 @@
 StickyHeaderLayout demo 
 
 CustomStickyHeaderLayout
-```
+
+```kotlin
 package com.ezaio.recycleviewstickheader
 
 import android.annotation.SuppressLint
@@ -176,7 +177,8 @@ class CustomStickyHeaderLayout : FrameLayout {
 ```
 ---------------------------------------------------------------------------------------------
 ## MainActivity
-```
+
+```kotlin
 package com.ezaio.recycleviewstickheader
 
 import android.os.Bundle
